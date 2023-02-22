@@ -1,0 +1,51 @@
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+}
+#bgvid{
+    display:flex;
+    position: relative;
+    align-self:center;
+    min-width: 100vw;
+    min-height: 100vh;
+    object-fit:fill;
+}
+
+
+.login-box{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(351deg, rgb(2, 0, 36) 0%, rgb(93, 232, 91) 100%, rgb(0, 213, 255) 100%);
+    min-width: 300px ;
+    min-height: 300px;
+    border-radius: 25%;
+    box-shadow: 28px 25px 4px 7px rgba(0,0,0,0.75);
+    position: absolute;
+}
+
+
+#log-In-button{
+    margin-top:4px;
+    border-radius: 5em;
+    background-color: rgb(15, 130, 31);
+}
+
+#password, #username{
+    margin-top: 4px;
+    border-radius: 8px;
+    
+}
+@media (any-hover:hover){
+    #username:hover,#password:hover{
+        background-color: rgba(0, 128, 0, 0.378);
+        
+    }
+
+}
+
