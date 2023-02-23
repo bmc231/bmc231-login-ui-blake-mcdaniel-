@@ -2,7 +2,7 @@
 .container-fluid{
     display: flex;
     justify-content: center;
-    align-content: center;
+        align-items: center;
     min-width: 100vw;
     min-height: 100vh;
     background-color: rgb(251, 246, 246);
@@ -11,38 +11,41 @@
 
 
 .login-box{
-    display: flex;
     flex-direction: column;
-    align-self: center;
+    display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: white;
-    width: 400px ;
-    height: 300px;
-    border-radius: 15%;
-    box-shadow: 18px 15px 4px 7px rgba(0,0,0,0.75);
+    border-radius: 50px;
     border: none;
+    min-width:30vw;
+    min-height:40vh;
+    padding: 30px;
+    justify-content:space-between;
+    background-color:white;
+    box-shadow: 18px 15px 4px 7px rgba(0,0,0,0.75);
 }
 
 
 #log-In-button{
-    margin-top:25px;
-    border-radius: 25px;
     border: none;
+    border-radius: 25px;
     background-color: rgb(20, 125, 246);
-    height: 40px;
-    width: 200px;
+    width: 225px;
+    padding:15px;
     color:white;
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+    flex-shrink:inherit;
+    
+
+
 }
 #password, #username{
-    margin-top: 10px;
+    margin: 15px;
     border-top: none;
     border-left: none;
     border-right: none;
     height: 40px;
-    width: 200px;
+    width: 225px;
     font-size: large;
-    
 
     
 }
