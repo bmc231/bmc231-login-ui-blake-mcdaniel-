@@ -9,7 +9,7 @@
 }
 
 
-
+    /* styling for login box */
 .login-box{
     flex-direction: column;
     display: flex;
@@ -24,7 +24,7 @@
     box-shadow: 18px 15px 4px 7px rgba(0,0,0,0.75);
 }
 
-
+    /* styling for the login button */
 #log-In-button{
     border: none;
     border-radius: 25px;
@@ -38,6 +38,8 @@
 
 
 }
+
+    /* styling for the fields */
 #password, #username{
     margin: 15px;
     border-top: none;
@@ -49,6 +51,8 @@
 
     
 }
+
+ /* hover effect for button and fields */
 @media (any-hover:hover){
     #username:hover, #password:hover,#log-In-button:hover {
         background-color: rgba(48, 97, 166, 0.378);

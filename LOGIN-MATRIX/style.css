@@ -4,6 +4,8 @@
     align-items: center;
     max-height: 100vh;
 }
+
+    /* formatting for the background */
 #bgvid{
     display:flex;
     position: relative;
@@ -13,7 +15,7 @@
     object-fit:fill;
 }
 
-
+    /* styling for the login box */
 .login-box{
     flex-direction: column;
     display: flex; 
@@ -29,7 +31,7 @@
     position: absolute;
 }
 
-
+    /* styling for the login button */
 #log-In-button{
     margin: 20px;
     border-radius: 25px;
@@ -39,7 +41,7 @@
     padding: 10px;
     font-size: medium;
 }
-
+    /* styling for the field */
 #password, #username{
     border: none;
     margin: px;
@@ -48,6 +50,7 @@
     min-width: 100px;
     font-size:medium;
 }
+    /* hover format for for fields and button */
 @media (any-hover:hover){
     #username:hover,#password:hover{
         background-color: rgba(82, 248, 82, 0.528);
